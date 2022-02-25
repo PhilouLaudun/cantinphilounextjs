@@ -1,8 +1,8 @@
 import React from 'react';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  fabFacebook
-} from "@fortawesome/free-brands-svg-icons";
+import { faFacebookF } from "@fortawesome/free-brands-svg-icons";
+import { faTwitter } from "@fortawesome/free-brands-svg-icons";
+
 
 const SocialNetworks = () => { //affichage des icones des réseaux sociaux
 
@@ -15,8 +15,9 @@ const SocialNetworks = () => { //affichage des icones des réseaux sociaux
             rel="noopener noreferrer"
             className="hover"
           >
-            <li><FontAwesomeIcon icon={faSearch} />F</li>
-            
+            <li>
+              <FontAwesomeIcon icon={faFacebookF} />
+            </li>
           </a>
           <a
             href="https://www.instagram.com"
@@ -25,7 +26,7 @@ const SocialNetworks = () => { //affichage des icones des réseaux sociaux
             className="hover"
           >
             <li>
-              <i className="fab fa-instagram"></i>
+              <FontAwesomeIcon icon={faTwitter} />
             </li>
           </a>
         </ul>
