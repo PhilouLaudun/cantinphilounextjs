@@ -29,10 +29,25 @@
       }
     }
 }
+li:nth-child(1) {
+  padding-left : 35px;
+}
+li:nth-child(2) {
+  padding-left : 25px;
+}  
+li:nth-child(3) {
+  padding-left : 15px;
+}
+
+ul:hover li:hover {
+  color: $black; ;
+  }
+ul:hover li:not(:hover) {
+    opacity: .4;
+  }
 }
 .navactive {
     color: $black;
-    background: yellow;
     font-size: 2rem;
     font-style: italic;
     animation: clignote 3s linear infinite;
@@ -41,10 +56,5 @@
     }
 
     }
-    
-ul:hover li:not(:hover) {
-    opacity: .4;
-  }
-ul:hover li:hover {
-  color: $black; ;
-  }
+
+

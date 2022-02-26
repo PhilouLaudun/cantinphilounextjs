@@ -5,12 +5,7 @@ import { useRouter } from "next/router";
 
 const Navigation = () => {
   // affichage de la navigation
-  const [router, setRouter] = useState("/");
-  const Navactive = () => {
-    setRouter(useRouter);
-    console.log(router);
-  };
-
+  const router=useRouter()
   return (
     <div className="navigation">
       <ul>

@@ -63,9 +63,11 @@
   width: 100%;
 
   margin: 0 auto;
+ 
 
   grid-template-columns: 20% 1fr;
   grid-template-rows: 10% 60% 25%;
+  grid-row-gap: 10px;
   grid-template-areas:
     "a b"
     "a c"
@@ -136,6 +138,7 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
+  
 }
 .swiper-slide {
   text-align: center;
@@ -159,8 +162,9 @@
   height: 100%;
   width: 100%;
   padding-bottom: 1%;
-  padding-right: 10px;
+  
   .swiper-slide {
+    padding-right: 10px;
     background: rgba(
       $color: #000000,
       $alpha: 0
