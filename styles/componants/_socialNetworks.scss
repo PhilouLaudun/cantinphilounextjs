@@ -7,30 +7,27 @@
   font-size: 2rem;
   z-index: 10;
   justify-content: center;
-  
 
- 
   ul {
     display: grid;
     width: 100%;
     min-width: 100px;
     justify-content: space-around;
-    
-    @media screen and (max-width: 450px){
+
+    @media screen and (max-width: 450px) {
       min-width: 100%;
     }
-
+    
     a {
       padding: 1rem;
       transition: 0.5s ease-out;
       color: $blue;
 
       & :hover {
-      color: $blue;  
-      transform: scale(1.2);
-      filter:drop-shadow(10px 10px 30px $red) contrast(150%) invert(20%);
-    };
-      
+        color: $blue;
+        transform: scale(1.2);
+        filter: drop-shadow(10px 10px 30px $red) contrast(150%) invert(20%);
+      }
     }
   }
 }
