@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-//import Image from "next/image";
 import { PriceData } from "../data/priceData";
 
 const Carte = (props) => { // carte d'affichage des prestations

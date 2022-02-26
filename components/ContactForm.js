@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 const ContactForm = () => { // formulaire de contact
   const [name, setName] = useState(""); // variable contenant le nom de la personne envoyant le message
@@ -75,8 +76,13 @@ const ContactForm = () => { // formulaire de contact
   const sendFeedback = (templateId, variables) => {
     let formMess = document.querySelector(".form-message"); // récupére la localisation de l'élément servant à afficher les messages d'erreur
 
-    window.emailjs // utilise le service eamiljs
-      .send("service_3b23au8", templateId, variables) // envoi le message
+    emailjs // utilise le service eamiljs
+      .send(
+        "service_3b23au8",
+        templateId,
+        variables,
+        "user_wycCeh0xbzJrIlAiWMPQA"
+      ) // envoi le message
       .then((res) => {
         // si envoi OK
         formMess.innerHTML =
