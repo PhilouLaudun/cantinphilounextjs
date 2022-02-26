@@ -19,12 +19,17 @@ const Navigation = () => {
             <a>Accueil</a>
           </Link>
         </li>
-
-        <li className={router.pathname == "/prices" ? "navactive" : ""}>
+        <li className={router.pathname == "/PortFolio" ? "navactive" : ""}>
+          <Link href="/PortFolio">
+            <a>Portfolio</a>
+          </Link>
+        </li>
+        <li className={router.pathname == "/Prices" ? "navactive" : ""}>
           <Link href="/Prices">
             <a>Prestation</a>
           </Link>
         </li>
+
         <li className={router.pathname == "/Contact" ? "navactive" : ""}>
           <Link href="/Contact">
             <a>Contact</a>

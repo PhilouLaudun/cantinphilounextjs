@@ -14,7 +14,7 @@ const SocialNetworks = () => { //affichage des icones des réseaux sociaux
             className="hover"
           >
             <li>
-              <FontAwesomeIcon icon={faFacebookF} />
+              <FontAwesomeIcon icon={faFacebookF} className="iconeimage" />
             </li>
           </a>
           <a
@@ -24,7 +24,7 @@ const SocialNetworks = () => { //affichage des icones des réseaux sociaux
             className="hover"
           >
             <li>
-              <FontAwesomeIcon icon={faInstagram} className="Socialicone"/>
+              <FontAwesomeIcon icon={faInstagram} />
             </li>
           </a>
         </ul>
