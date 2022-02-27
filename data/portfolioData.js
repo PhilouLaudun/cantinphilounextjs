@@ -102,27 +102,27 @@ export const PortfolioData = [
  {
     id: 21,
     cat: "Bébé",
-    img: "/img/Portfolio/Bebe (1).jpg",
+    img: "/img/Portfolio/Bebe1.jpg",
   },
  {
     id: 22,
     cat: "Bébé",
-    img: "/img/Portfolio/Bebe (2).jpg",
+    img: "/img/Portfolio/Bebe2.jpg",
   },
   {
     id: 23,
     cat: "Bébé",
-    img: "/img/Portfolio/Bebe (3).jpg",
+    img: "/img/Portfolio/Bebe3.jpg",
   },
   {
     id: 24,
     cat: "Bébé",
-    img: "/img/Portfolio/Bebe (4).jpg",
+    img: "/img/Portfolio/Bebe4.jpg",
   },
   {
     id: 25,
     cat: "Bébé",
-    img: "/img/Portfolio/Bebe (5).jpg",
+    img: "/img/Portfolio/Bebe5.jpg",
   },
  {
     id: 26,
