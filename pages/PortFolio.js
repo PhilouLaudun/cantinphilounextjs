@@ -140,7 +140,7 @@ const PortFolio = () => {
             {/*Affichage des images à partir du fichier externe en json */}
             {sortedArray.map((image) => (
               <SwiperSlide key={image.id}>
-                <Image src={image.img} layout="fill" alt=" " />
+                <Image src={image.img} layout="fill" alt={image.cat} />
               </SwiperSlide>
             ))}
           </Swiper>
