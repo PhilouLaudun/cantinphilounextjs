@@ -3,6 +3,7 @@ import { PortfolioData } from "../data/portfolioData";
 import Logo from "../components/Logo";
 import Navigations from "../components/Navigations";
 import SocialNetworks from "../components/SocialNetworks";
+import Image from "next/image";
 
 
 // Import Swiper React components et Swiper styles
@@ -138,8 +139,8 @@ const PortFolio = () => {
           >
             {/*Affichage des images à partir du fichier externe en json */}
             {sortedArray.map((image) => (
-              <SwiperSlide>
-                <img src={image.img} key={image.id} alt=" " />
+              <SwiperSlide key={image.id}>
+                <Image src={image.img} layout="fill" alt=" " />
               </SwiperSlide>
             ))}
           </Swiper>
@@ -156,8 +157,8 @@ const PortFolio = () => {
           >
             {/*Affichage des images à partir du fichier externe en json */}
             {sortedArray.map((image) => (
-              <SwiperSlide>
-                <img src={image.img} key={image.id} alt=" " />
+              <SwiperSlide key={image.id}>
+                <Image src={image.img} layout="fill" alt=" " />
               </SwiperSlide>
             ))}
           </Swiper>

@@ -24,7 +24,8 @@
     }
   }
   // style de la photo
-  img {
+  .cardimage {
+    position:relative;
     width: 100%;
     height:70%;
    object-fit: cover;

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { PriceData } from "../data/priceData";
+import Image from "next/image";
 
 const Carte = (props) => { // carte d'affichage des prestations
   const [currentCard] = useState(PriceData); // tableau de cartes à afficher, fichier externe en json
@@ -7,8 +8,9 @@ const Carte = (props) => { // carte d'affichage des prestations
  
   return (
     <div className="card">
-        
-        <img src={carte.img} alt={carte.title} />
+      <div className="cardimage">
+        <Image src={carte.img} alt={carte.title} layout="fill" />
+      </div> 
 
       <h1>{carte.title} </h1>
       <div className="card-text">
