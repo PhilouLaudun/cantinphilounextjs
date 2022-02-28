@@ -21,6 +21,7 @@ const Home = () => {
         />
         <meta name="author" content="Philippe BOUDINAUD" />
         <meta name="copyright" content="© PhilouLaudun Inc" />
+        
       </Head>
       <main>
         {/*page principale */}
