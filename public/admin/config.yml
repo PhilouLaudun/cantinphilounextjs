@@ -2,10 +2,11 @@ backend:
   name: github
   repo: PhilouLaudun/cantinphotonextjs 
   branch: main # Branch to update (optional; defaults to master)
-  publish_mode: editorial_workflow
-  media_folder: public/img
-  public_folder: img
-  collections:
+publish_mode: editorial_workflow
+media_folder: "public/img"
+public_folder: "img"
+
+collections:
     - name: "pages"
       label: "Pages"
       files:
