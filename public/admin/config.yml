@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: PhilouLaudun/cantinphotonextjs 
+  repo: philoulaudun/cantinphotonextjs 
   branch: main # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
 media_folder: "public/img"
