@@ -6,6 +6,7 @@ import React from "react";
 import Navigations from "../components/Navigations";
 import Logo from "../components/Logo";
 import SocialNetworks from "../components/SocialNetworks";
+import datahome from "../content/home.json";
 
 const Home = () => {
   return (
@@ -34,10 +35,10 @@ const Home = () => {
           {/*Contenu de la page */}
           <div className="home-main">
             <div className="main-content">
-              <h1> Charles CANTIN</h1>
-              <h2>Photographe</h2>
+              <h1> {datahome.title}</h1>
+              <h2>{datahome.soustitre}</h2>
             </div>
-            <h3>Mariage - Grossesse - Bébé - Famille - Baptême - Couple</h3>
+            <h3>{datahome.footerhome}</h3>
           </div>
         </div>
       </main>
