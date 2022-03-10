@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: PhilouLaudun/ cantinphotonextjs 
+  repo: PhilouLaudun/cantinphotonextjs 
   branch: main # Branch to update (optional; defaults to master)
 publish_mode: editorial_workflow
 media_folder: "public/img"
@@ -14,7 +14,7 @@ collections:
           name: "home"
           extension: "json"
           format: "json"
-          file: "content/home"
+          file: "content/home.json"
           fields:
             - { label: "Title", name: "title", widget: "string"}
             - { label: "Soustitre", name: "soustitre", widget: "string" }
